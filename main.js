@@ -2,10 +2,9 @@ var temp;
 
 prepareData('data.txt');
 
-console.log(data);
-
 function getData() {
   var data = temp
+  console.log(data);
 }
 
 function prepareData(url) {
