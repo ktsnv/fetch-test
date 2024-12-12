@@ -1,4 +1,4 @@
-let temp;
+var temp;
 fetchData('data.txt');
 let data = temp;
 
