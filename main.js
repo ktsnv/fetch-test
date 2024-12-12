@@ -1,6 +1,6 @@
 var temp;
 
-fetchData('data.txt');
+prepareData('data.txt');
 
 console.log(data);
 
