@@ -1,12 +1,13 @@
-let data = fetchData('data.txt');
+let temp;
+fetchData('data.txt');
+let data = temp;
+
 console.log(data);
 function fetchData(url) {
-  let temp;
   fetch(url)
     .then(res=>res.text()) 
     .then(text => { 
       temp = text.split("\n");
       console.log(temp);
-    });
-  return temp;
+  });
 }
