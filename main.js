@@ -6,6 +6,7 @@ function fetchData(url) {
     .then(res=>res.text()) 
     .then(text => { 
       temp = text.split("\n");
+      console.log(temp);
     });
   return temp;
 }
