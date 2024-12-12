@@ -5,7 +5,7 @@ function fetchData(url) {
   fetch(url)
     .then(res=>res.text()) 
     .then(text => { 
-      temp = text.split("\n") 
-    };
+      temp = text.split("\n");
+    });
   return temp;
 }
