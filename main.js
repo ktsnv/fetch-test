@@ -1,9 +1,10 @@
 var temp;
+var data;
 
 prepareData('data.txt');
 
 function getData() {
-  var data = temp
+  data = temp;
   console.log(data);
 }
 
